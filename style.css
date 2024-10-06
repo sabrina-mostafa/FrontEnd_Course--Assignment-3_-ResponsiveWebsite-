@@ -218,6 +218,7 @@ h4 {
 }
 
 .txt-l .btn {
+    width: 100%;
     display: flex;
     justify-content: flex-start;
 }
@@ -515,15 +516,12 @@ footer {
 
 
 
-
-
 /* RESPONSIVE */
 
 /* For Mobile Devices & iPads, Tablets ( <= 768px) */
 
 #sidebar-active, .open, .close, .nav-container {
     display: none;
-    /* padding: 25px 20px; */
 }
 
 
@@ -616,6 +614,10 @@ footer {
         padding-bottom: 0.6rem;
     }
 
+    .hd {
+        width: 80%;
+    }
+
     button {
         width: 8.8rem;
         height: 3.2rem;
@@ -643,6 +645,11 @@ footer {
     .txt1-p {
         padding-top: 1.5rem;
         padding-bottom: 1rem;
+    }
+
+    /* Footer */
+    .content p {
+        font-size: 15px;
     }
 }
 
@@ -767,9 +774,9 @@ footer {
         width: 70% ;
     }
 }
-@media screen and (max-width:1450px) {
+@media screen and (max-width:1020px) {
     .s-txt {
-        width: 50%;
+        width: 80%;
     }
 }
 
